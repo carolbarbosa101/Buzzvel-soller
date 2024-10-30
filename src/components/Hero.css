@@ -1,0 +1,150 @@
+.heroText{
+  text-align: left;
+  flex-direction: row;
+  position: relative;
+
+}
+
+.title {
+  width: 615px; 
+  font-size: 72px;
+  height: auto;
+  font-weight: 800;
+  line-height: 79.2px;
+  display: flex;
+  margin-top: -100px;
+}
+
+
+.paragraph1 {
+  font-size: 24px;
+  width: 600px;
+  height: auto;
+  font-weight: 400;
+  line-height: 38.4px;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+
+.paragraph-testimonial {
+  font-size: 18px;
+  width: 600px;
+  height: 58px;
+  line-height: 28.8px;
+  gap: 80px;
+  margin-left: -10px;
+}
+
+.testimonial-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: -10px;
+}
+
+.ctaButton {
+  background-color: transparent;
+  color: #581C87;
+  padding: 20px 24px;
+  border: 2px solid #581C87;
+  border-radius: 100px;
+  cursor: pointer;
+  width: 306px;
+  height: 64px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.arrow-icon {
+  width: 24px;
+  height: 24px; 
+  padding: 5.01px 5px 5.67px 5px; 
+  margin-left: 5px;
+  margin-left: 15px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 600px;
+  height: 128px;
+  line-height: 38.4px;
+  margin-top: 55px;
+  gap: 8px;
+}
+
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-color: #0F172A;
+  width: 100%;
+  margin: 0;
+  gap: 80px;
+}
+
+.profile-image {
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  
+
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+
+}
+
+.profile-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 22.4px;
+
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+  
+  }
+  .hero-content {
+  
+  }
+
+  .hero h1 {
+   
+    text-align: left;
+  }
+
+  .hero p {
+
+  }
+
+  .hero img {
+    
+  }
+}

@@ -1,0 +1,165 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 80px;
+  position: relative;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* logo & nav */
+.header-left {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+
+.header-right {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  gap: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+/* MEN IMG */
+.hero-right {
+  position: relative;
+  display: flex;
+  padding-top: 200px; 
+
+  justify-content: center;
+  align-items: center; 
+}
+.heroImage {
+  position: absolute;
+  top: -110px;
+  right: -200px; 
+  z-index: -1;
+}
+.solar-panel-image {
+  object-fit: cover;
+  width: 90%; 
+  height: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius:100%;
+  border-bottom-right-radius: 100%; 
+
+}
+/* CSS MEN IMG END */
+
+
+
+.logo {
+  font-size: 32px;
+  color: #0F172A;
+  font-weight: 700;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav ul li a{
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.buttons-group { 
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  right: 50px;
+  z-index: 1;
+  padding: 0px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.phone-button {
+  background-color: transparent;
+  border: 0px solid;
+  padding: 10px 16px;
+  color: #0369A1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 55px;
+
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.phone-icon {
+  width: 20px;
+  height: 19px; 
+}
+
+.ctaButton {
+  background-color: transparent;
+  color: #581C87;
+  padding: 20px 24px;
+  border: 2px solid #581C87;
+  border-radius: 100px;
+  cursor: pointer;
+  width: 200px;
+  height: 64px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.arrow-icon {
+  width: 24px;
+  height: 24px; 
+  padding: 5.01px 5px 5.67px 5px; 
+  margin-left: 5px;
+}
+
+.ctaButton:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+
+/* Tablets & desktops */
+@media (max-width: 768px) {
+  .nav-menu ul {
+    display: none; /* Escondi o menu em mobile */
+  }
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .ctaButton {
+    display: none;
+  }
+}

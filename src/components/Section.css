@@ -1,0 +1,76 @@
+
+.text-section {
+  
+  text-align: center;
+  position: absolute;
+}
+    
+.paragraph-section {
+  font-size: 15px;
+  text-align: center;
+}
+.pick-sun {
+  margin-bottom: 5px;
+}
+
+.no-waste {
+  margin-top: 50px;
+  color: #D97706;
+}
+
+.objects{
+  position: relative;
+}
+   
+.image-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100%;
+}
+
+.screen img {
+  width: 1520px;
+  max-width: 80%;
+  border-radius: 20px;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.images-circles {
+  position: absolute;
+  z-index: -1;
+}
+
+.circle-purple {
+  position: absolute;
+  top: -700px;
+  right: -1140px; 
+  width: 10px;
+  height: 10px;
+ 
+}
+
+.circle-purple-image {
+  width: 400px; 
+  height: 400px;
+ 
+}
+
+.circle-orange {
+  top: 0;
+  right: 60; 
+  width: 20px;
+  height: 20px;
+  margin-top: -800px;
+
+}
+.circle-orange-image {
+  width:500px; 
+  height: 550px;
+ 
+}
+    
+@media (min-width: 768px) {
+   
+}
